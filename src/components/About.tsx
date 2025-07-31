@@ -7,7 +7,7 @@ export const AboutSection = () => {
         <div className="container">
           <div className="flex justify-center">
             <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text text-center">
-              Explore More
+              Holla amigos!
             </p>
           </div>
           <h2 className="font-serif text-3xl md:text-5xl text-center mt-6">
@@ -24,7 +24,7 @@ export const AboutSection = () => {
                 Lately, I&apos;ve been exploring the world of Web3 — it’s overwhelming at times, but the way Solana works has genuinely sparked my curiosity. Still early in the journey, but I’m diving in, one concept at a time.
                 I&apos;m big on technology that moves the world forward, and when I’m not coding, I’m probably reading up on art, history, or watching a good football match. I believe mixing logic with creativity is where the real magic happens.
                 Open to freelance, collabs, or just chatting about cool ideas.
-                Let&apos;s build and learn together. 🚀
+                Let&apos;s build and learn together.
               </TextAnimate>
             </div>
           </div>

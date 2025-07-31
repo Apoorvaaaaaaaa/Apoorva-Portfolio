@@ -1,8 +1,8 @@
-import codesnapperImage from '@/assets/images/codesnapper.png'
-import docsImage from "@/assets/images/Docs.png";
-import ochiImage from "@/assets/images/Ochi.png";
-import sundownImage from "@/assets/images/Sundown.png";
-import usabilityImage from "@/assets/images/Usability.png";
+import aiChatbot from '@/assets/images/AI-chatbot1.png'
+import heartbeatSensor from "@/assets/images/heartbeatsensor.jpg";
+import shaderPark from "@/assets/images/shaderpark.png";
+import internetSpeed from "@/assets/images/InternetSpeed.png";
+import realEstate from "@/assets/images/1.jpg";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -11,63 +11,64 @@ import GrainImage from "@/assets/images/grain.jpg";
 const portfolioProjects = [
   {
     company: "Tech",
-    year: "ReactJS, ShadCN, Highlight.js, ShadCN UI",
-    title: "Code Snapper",
+    year: "JS, ReactJs, Node.js, TailwindCss",
+    title: "AI-WHATSAPP CHATBOT",
     results: [
-      { title: "10+ elegant themes (light + dark theme included) with 12+ font styles." },
-      { title: "Multiple export options: save as SVG/PNG, copy to clipboard and copy link." },
-      { title: "Other customization options like: font size, padding, background etc." },
+      { title: "Natural Language Understanding: Processes user messages with AI comprehension." },
+      { title: "Automated Responses: Provides instant replies to common queries." },
+      { title: "Context Awareness: Maintains conversation context for more natural interactions." },
+       { title: "Multi-language Support: Communicates in various languages." },
     ],
-    link: "https://codesnapper.netlify.app",
-    image: codesnapperImage,
+    link: "https://github.com/Apoorvaaaaaaaa/AI-CHATBOT",
+    image: aiChatbot,
   },
   {
     company: "Tech",
-    year: "ReactJS, Locomotive Js",
-    title: "Ochi Design",
+    year: "JavaScript, Shader Park, React, Vite",
+    title: "Touch Design",
     results: [
-      { title: "Boosted visual engagement and interactivity" },
-      { title: "Created a seamless scroll experience" },
-      { title: "Strengthened responsive design skills" },
+      { title: "It defines an interactive shader scene using Shader Park API, writing JavaScript that compiles to GLSL and runs on GPU." },
+      { title: "Sets up 2D or 3D procedural graphics—textures, raymarching, or signed distance functions—rendered in real time" },
+      { title: "Utilizes WebGL under the hood (or Three.js wrapper) to draw visuals on a canvas or scene." },
     ],
-    link: "https://ochi-dev.netlify.app/",
-    image: ochiImage,
+    link: "https://github.com/Apoorvaaaaaaaa/graphics-shaderpark",
+    image: shaderPark,
   },
   {
-    company: "Tech",
-    year: "reactjs, framer motion",
-    title: "Docs - Ultimate Document Management",
+    company: "Hardware",
+    year: "C, Embedde System, IoT",
+    title: "Heartbeat Sensor",
     results: [
-      { title: "Add, Edit, and Delete Cards" },
-      { title: "Smooth and intuitive drag-and-drop" },
+      { title: "Created a heartbeat sensor using ESP8266 that reads pulse data and displays it on an OLED." },
+      { title: "An LED provides simple visual feedback for heartbeats in real time." },
       { title: "Browser’s localStorage, no login required!" },
     ],
-    link: "https://docs-document.netlify.app/",
-    image: docsImage,
+    link: "https://github.com/Apoorvaaaaaaaa/Heartbeat-sensor-using-esp8266-oled",
+    image: heartbeatSensor,
   },
   {
     company: "tech",
-    year: "JavaScript, Lenis, Locomotive",
-    title: "Sundown Studio",
+    year: "JavaScript, HTML, CSS ",
+    title: "Internet Speed Checker",
     results: [
       { title: "Real-world scroll performance optimization" },
-      { title: "Aesthetic-driven development" },
-      { title: "Strengthened animation logic in vanilla JS" },
+      { title: "Providing Download,Upload, Ping, Jitter Speed" },
+      { title: "Basic but Aesthetic Driven" },
     ],
-    link: "https://sundown-design-studio.netlify.app/",
-    image: sundownImage,
+    link: "https://github.com/Apoorvaaaaaaaa/Internet-Speed-Checker",
+    image: internetSpeed,
   },
   {
     company: "Tech",
-    year: "Html, css, git, github",
-    title: "UsabilityHub",
+    year: "Html, css, github",
+    title: "Real-Estate Website",
     results: [
-      { title: "Honed pixel-perfect layout skills" },
-      { title: "Practiced clean and maintainable CSS" },
-      { title: "Git & GitHub for real-time collaboration" },
+      { title: "Fanam is a Real Estate, Architecture & interior design Bootstrap HTML Template for real estate website, manage and listing a local or global directory site, real estate agency" },
+      { title: "This design is very simple and unique, and also very easy to customize and use." },
+      { title: " GitHub for real-time collaboration" },
     ],
-    link: "https://project-usabilityhub.netlify.app/",
-    image: usabilityImage,
+    link: "https://github.com/Apoorvaaaaaaaa/realestate-website",
+    image: realEstate,
   },
 ];
 

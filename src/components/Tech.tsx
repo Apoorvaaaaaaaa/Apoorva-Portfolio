@@ -2,37 +2,33 @@ import { Fragment } from "react";
 import Image from "next/image";
 
 import openai from "@/assets/icons/openai.png";
+import java from "@/assets/icons/java.png";
 import html from "@/assets/icons/html.png";
 import css from "@/assets/icons/css.png";
 import javascript from "@/assets/icons/javascript.png";
 import typescript from "@/assets/icons/typescript.png";
 import react from "@/assets/icons/react.png";
 import nextjs from "@/assets/icons/nextjs.png";
-import redux from "@/assets/icons/redux.png";
 import nodejs from "@/assets/icons/nodejs.png";
 import mysql from "@/assets/icons/mysql.png";
 import mongodb from "@/assets/icons/mongodb.png";
-import gsap from "@/assets/icons/gsap.png";
-import framer from "@/assets/icons/framer.png";
 import figma from "@/assets/icons/figma.png";
 import tailwindcss from "@/assets/icons/tailwindcss.png";
 import git from "@/assets/icons/git.png";
 import github from "@/assets/icons/github.png";
 
 const techStack = [
-  { name: "OpenAI", icon: openai },
+  {name: "OpenAI", icon: openai},
+  {name: "Java", icon: java },
   { name: "HTML", icon: html },
   { name: "CSS", icon: css },
   { name: "JavaScript", icon: javascript },
   { name: "TypeScript", icon: typescript },
   { name: "React.js", icon: react },
   { name: "Next.js", icon: nextjs },
-  { name: "Redux", icon: redux },
   { name: "Node.js", icon: nodejs },
   { name: "MySQL", icon: mysql },
   { name: "MongoDB", icon: mongodb },
-  { name: "GSAP", icon: gsap },
-  { name: "Framer Motion", icon: framer },
   { name: "Figma", icon: figma },
   { name: "Tailwind CSS", icon: tailwindcss },
   { name: "GIT", icon: git },

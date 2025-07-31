@@ -87,11 +87,11 @@ export const HeroSection = () => {
             </div>
           </div>
           <div className="max-w-lg mx-auto">
-            <h2 className="font-serif text-3xl md:text5xl text-center mt-8 tracking-wide">
+            <h4 className="font-serif text-3xl md:text5xl text-center mt-8 tracking-wide">
               <TextAnimate animate="blueInUp" once>
                 crafting digital experiences through code and creative design.
               </TextAnimate>
-            </h2>
+            </h4>
             <div className="mt-4 text-center text-white/60 md:text-lg">
               <TextAnimate
                 animation="blurInUp"
@@ -113,7 +113,7 @@ export const HeroSection = () => {
               <ArrowDonw className="size-4 -rotate-[130deg]" />
             </button>
             <a
-              href="https://drive.google.com/file/d/1e1MM8NiMbewSqcOStxQOBK-QJhVx7Vts/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1xqcjKop_ijqYcJqURLgwMBSGpo44AQrJ/view?usp=drivesdk "
               target="_blank"
               rel="noopener noreferrer"
               className="cursor:pointer inline-flex items-center gap-2 border border-white bg-white text-gray-900 px-6 h-12 rounded-full"

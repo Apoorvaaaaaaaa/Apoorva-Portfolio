@@ -3,33 +3,43 @@ import SparkleIcon from "@/assets/icons/sparkle.svg";
 import { TextAnimate } from "@/components/magicui/text-animate";
 import { InteractiveHoverButton } from "@/components/magicui/interactive-hover-button";
 import { toast } from "react-hot-toast";
+import dynamic from "next/dynamic";
 
 export const ContactSection = () => {
-  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    const formData = new FormData(event.target as HTMLFormElement);
+   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+  event.preventDefault();
 
-    formData.append("access_key", "76d308d0-92bc-4d4b-811b-ce92c99438cb");
+  const form = event.target as HTMLFormElement;
+  const formData = new FormData(form);
 
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
+  // ⛳️ Append your access key BEFORE converting to object
+  formData.append("access_key", process.env.NEXT_PUBLIC_WEB3FORMS_KEY as string);
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: json,
-    });
-    const result = await response.json();
+  const object = Object.fromEntries(formData.entries());
+  const json = JSON.stringify(object);
 
-    if (result.success) {
-      toast.success("Message sent successfully! 🚀");
-    } else {
-      toast.error("Failed to send message. Please try again.");
-    }
+  console.log("Form Payload:", object); // ✅ Debug
+
+  const response = await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
+    body: json,
+  });
+
+  const result = await response.json();
+  console.log("Web3Forms Response:", result); // ✅ Debug
+
+  if (result.success) {
+    toast.success("Message sent successfully! 🚀");
+    form.reset(); // optional: clear form
+  } else {
+    toast.error("Failed to send message. Please try again.");
   }
+}
+
 
   return (
     <>

@@ -1,16 +1,22 @@
-// components/MyComponent.tsx
-'use client'; // 👈 very important in App Router to run on client
-
+// src/components/ScrollProgress.tsx or MyComponent.tsx
+'use client';
 import { useEffect, useState } from 'react';
 
-const MyComponent = () => {
-  const [width, setWidth] = useState<number | null>(null);
+const ScrollProgress = () => {
+  const [scroll, setScroll] = useState(0);
 
   useEffect(() => {
-    setWidth(window.innerWidth);
+    const handleScroll = () => {
+      const scrolled = window.scrollY;
+      setScroll(scrolled);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  return <div>Window width: {width}</div>;
+  return <div>Scroll: {scroll}px</div>;
 };
 
-export default MyComponent;
+export default ScrollProgress;
+
