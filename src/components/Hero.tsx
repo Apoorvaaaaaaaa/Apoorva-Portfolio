@@ -34,7 +34,7 @@ export const HeroSection = () => {
         <div className="absolute inset-0 -z-10 [mask-image:linear-gradient(black,transparent)]">
           <div
             className="absolute inset-0 -z-30 opacity-5"
-            style={{ backgroundImage: `url(${grainImage.src})` }}
+            style={{ backgroundImage: `url(${grainImage})` }}
           ></div>
           <div className="size-[620px] hero-ring"></div>
           <div className="size-[820px] hero-ring"></div>
@@ -68,7 +68,7 @@ export const HeroSection = () => {
                 duration={1}
                 once
               >
-                Hey, I&apos;m Priyanshu
+                Hey, I&apos;m Apoorva
               </TextAnimate>
             </div>
             <Image
@@ -82,16 +82,16 @@ export const HeroSection = () => {
                 <div className="bg-green-500 absolute inset-0 rounded-full animate-ping"></div>
               </div>
               <div className="text-sm font-semibold">
-                Creative FrontEnd Developer
+                21, engineer.
               </div>
             </div>
           </div>
           <div className="max-w-lg mx-auto">
-            <h1 className="font-serif text-3xl md:text5xl text-center mt-8 tracking-wide">
+            <h2 className="font-serif text-3xl md:text5xl text-center mt-8 tracking-wide">
               <TextAnimate animate="blueInUp" once>
-                Crafting digital experiences through code and creative design.
+                crafting digital experiences through code and creative design.
               </TextAnimate>
-            </h1>
+            </h2>
             <div className="mt-4 text-center text-white/60 md:text-lg">
               <TextAnimate
                 animation="blurInUp"
@@ -99,10 +99,8 @@ export const HeroSection = () => {
                 duration={3}
                 once
               >
-                I craft seamless, responsive user interfaces that don&apos;t
-                just look good — they feel intuitive and alive. With a passion
-                for clean code and pixel-perfect design, I bring ideas to life
-                on the web, one component at a time.
+               Writing code, breaking prod, then asking ChatGPT why it’s broken. — in that exact order.
+
               </TextAnimate>
             </div>
           </div>

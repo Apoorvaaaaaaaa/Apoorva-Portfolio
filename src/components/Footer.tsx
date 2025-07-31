@@ -2,10 +2,9 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import React from "react";
 
 const footerLinks = [
-  { name: "Github", url: "https://github.com/Priyanshu-Patil" },
-  { name: "LinkedIn", url: "https://linkedin.com/in/patilpriyanshu" },
-  { name: "Instagram", url: "https://instagram.com/priyanshpatil" },
-  { name: "Twitter", url: "https://x.com/PriyanshPatil14" },
+  { name: "Github", url: "https://github.com/Apoorvaaaaaaaa" },
+  { name: "LinkedIn", url: "https://www.linkedin.com/in/apoorva-das-18326124a/" },
+  { name: "Twitter", url: "https://x.com/apoorvaaaaa_das" },
 ];
 
 export const Footer = () => {

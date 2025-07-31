@@ -99,7 +99,7 @@ export const Projects = () => {
                 <div
                   className="absolute inset-0 -z-10 opacity-5"
                   style={{
-                    backgroundImage: `url(${GrainImage.src})`,
+                    backgroundImage: `url(${GrainImage})`,
                   }}
                 ></div>
                 <div className="lg:grid lg:grid-cols-2 lg:gap-16">
