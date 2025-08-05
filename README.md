@@ -121,7 +121,7 @@ Portfolio/
 
 Want to collaborate or have a project in mind?  
 Reach out via the [Contact](#contact) section or email me at:  
-**ApoorvaDas.dev@gmail.com**
+**apurvadas00@gmail.com**
 
 ---
 
