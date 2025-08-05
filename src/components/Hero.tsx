@@ -99,7 +99,7 @@ export const HeroSection = () => {
                 duration={3}
                 once
               >
-               Writing code, breaking prod, then asking ChatGPT why it’s broken. — in that exact order.
+               Writing code, breaking prod, then asking LLMs why it’s not working. — in that exact order.
 
               </TextAnimate>
             </div>
