@@ -278,7 +278,7 @@ const ShaderMaterial = ({
       blendSrc: THREE.SrcAlphaFactor,
       blendDst: THREE.OneFactor,
     });
-  }, []); 
+  }, [source]); 
 
   return (
     <mesh ref={ref as any}>
