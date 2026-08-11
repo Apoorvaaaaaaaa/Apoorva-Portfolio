@@ -82,7 +82,7 @@ export const HeroSection = () => {
                 <div className="bg-green-500 absolute inset-0 rounded-full animate-ping"></div>
               </div>
               <div className="text-sm font-semibold">
-                21, engineer.
+                22, engineer.
               </div>
             </div>
           </div>
