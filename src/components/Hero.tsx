@@ -68,7 +68,7 @@ export const HeroSection = () => {
                 duration={1}
                 once
               >
-                Hey, I&apos;m Apoorva
+                Holla Amigos!
               </TextAnimate>
             </div>
             <Image
@@ -89,7 +89,7 @@ export const HeroSection = () => {
           <div className="max-w-lg mx-auto">
             <h4 className="font-serif text-3xl md:text5xl text-center mt-8 tracking-wide">
               <TextAnimate animate="blueInUp" once>
-                crafting digital experiences through code and creative design.
+                Code with purpose. Design with intent.
               </TextAnimate>
             </h4>
             <div className="mt-4 text-center text-white/60 md:text-lg">
@@ -99,7 +99,7 @@ export const HeroSection = () => {
                 duration={3}
                 once
               >
-               Writing code, breaking prod, then asking LLMs why it’s not working. — in that exact order.
+               Turning ideas into scalable software — full-stack development, AI integration, and a builder&apos;s mindset.
 
               </TextAnimate>
             </div>
@@ -113,7 +113,7 @@ export const HeroSection = () => {
               <ArrowDonw className="size-4 -rotate-[130deg]" />
             </button>
             <a
-              href="https://drive.google.com/file/d/16uDnJXRK5QnNJs6fNN5T1ReKTHI-bcYJ/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1PbFUZDj2geZR0s3UNI5D4nh6rlaS1JT1/view?usp=drivesdk"
               target="_blank"
               rel="noopener noreferrer"
               className="cursor:pointer inline-flex items-center gap-2 border border-white bg-white text-gray-900 px-6 h-12 rounded-full"

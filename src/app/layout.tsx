@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+// @ts-ignore: CSS module type declarations are not available in this project setup.
 import "./globals.css";
 
 import { Inter, Calistoga, Host_Grotesk } from "next/font/google";

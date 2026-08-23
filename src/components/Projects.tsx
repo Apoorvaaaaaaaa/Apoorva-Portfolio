@@ -7,6 +7,7 @@ import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import GrainImage from "@/assets/images/grain.jpg";
+import Chatbot from "@/assets/images/Chatbot.png";
 
 const portfolioProjects = [
   {
@@ -69,6 +70,19 @@ const portfolioProjects = [
     ],
     link: "https://github.com/Apoorvaaaaaaaa/realestate-website",
     image: realEstate,
+  },
+   {
+    company: "Tech",
+    year: "TypeScript, Next.js, SQL, Supabase",
+    title: "Converse AI",
+    results: [
+      { title: "Implements authentication, database migrations, and a modular component architecture for scalability." },
+      { title: "Includes support for multiple AI providers (OpenAI, Azure OpenAI, and local models via Ollama) alongside internationalization and automated testing (Jest)" },
+      { title: "Implements secure user authentication and persistent chat storage via Supabase, with SQL migrations for structured database setup and easy self-hosting.." },
+       { title: "Built with i18n support for multi-language accessibility, and deployable on Vercel with environment-based configuration for both local and hosted instances" },
+    ],
+    link: "https://github.com/Apoorvaaaaaaaa/CHATBOT",
+    image: Chatbot,
   },
 ];
 
